@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+
+
+.main {
+
+    width: 100%;
+    height: 100vh;
+    background: url(pexels-towfiqu-barbhuiya-11873897.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.overlays {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(3, 2, 2, 0.6);
+}
+
+.title {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    margin-top: 10px;
+    font-size: 2.5rem;
+    text-align: center;
+    color: rgb(192, 64, 124);
+}
+
+.column {
+    margin-top: 120px;
+    padding: 133px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.column div {
+    width: 250px;
+    text-align: center;
+}
+
+input {
+    height: 40px;
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: none;
+    border-radius: 3px;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+label {
+    font-size: larger;
+}
